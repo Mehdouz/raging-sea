@@ -24,7 +24,7 @@ const scene = new THREE.Scene();
 const waterGeometry = new THREE.PlaneGeometry(2, 2, 2000, 2000);
 
 // Color
-debugObject.depthColor = "#186691";
+debugObject.depthColor = "#041139";
 debugObject.surfaceColor = "#9bdbff";
 
 // Material
@@ -158,7 +158,7 @@ const camera = new THREE.PerspectiveCamera(
   0.1,
   100
 );
-camera.position.set(0, 0.5, 0.2);
+camera.position.set(1, 1.5, 2);
 scene.add(camera);
 
 // Controls
